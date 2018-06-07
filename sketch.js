@@ -30,13 +30,10 @@ function setup(){
 
     beatRate = 1;
     beatPan = 0;
-    
+
     //beatVolume = createSlider(0, 1, .5, .05);
     // beatRate = createSlider(0.5, 1.5, 1, .05);
     // beatPan = createSlider(-1, 1, 0, .05);
-
-    
-    
 
     for(var beatSeconds = 0; beatSeconds < beat.duration(); beatSeconds+=.48){
         beat.addCue(beatSeconds, smallSquares);
