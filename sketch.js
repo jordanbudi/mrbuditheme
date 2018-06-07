@@ -4,7 +4,7 @@ var amplitude, level, beatSize;
 
 
 function preload(){
-    beat = loadSound("/sound/adonis-budisantoso.m4a")
+    beat = loadSound("sound/adonis-budisantoso.m4a")
     //beat = loadSound("/sound/humble.m4a")
     //beat = loadSound("/sound/travis-scott.mp3")
 }
